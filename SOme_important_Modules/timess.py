@@ -38,7 +38,7 @@ from datetime import date
 print(date(2022,3,21))
 
 
-from datetime import time
+from datetime import time 
 # time class
 
 print(time(3,4,45))
@@ -61,4 +61,13 @@ print(date(2022,2,3)==date(2022,2,3))
 
 # Formatting Date / Time
 
-print(strftime(date(2022,3,22)))
+print(date(2022,3,22).strftime("%B ,%d ,%Y"))  # all code are  in the  pdf provided
+
+
+
+# Sleep method
+
+from time import sleep
+
+sleep(5)
+print("after 5 sec ")
